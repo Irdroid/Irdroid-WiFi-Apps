@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 
+    android:orientation="vertical"
+  
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Macro Command:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+    android:id="@+id/bike_states"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+
+    </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+      <Spinner
+    android:id="@+id/commands"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     />
+      
+      
+     </LinearLayout>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Save"
+          android:background="@drawable/rounded"
+        />
+
+</LinearLayout>

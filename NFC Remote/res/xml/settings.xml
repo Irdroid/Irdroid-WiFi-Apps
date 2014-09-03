@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_user_profile">
+        <EditTextPreference android:title="@string/pref_user_name" android:summary="@string/pref_user_name_summary" android:key="prefUsername" android:defaultValue="192.168.2.1"/>
+        <EditTextPreference android:summary="Lirc server port" android:title="Server port" android:key="prefport" android:inputType="number" android:defaultValue="8765"/>
+    </PreferenceCategory><PreferenceCategory android:title="Macro settings">
+            <EditTextPreference android:summary="Set a delay between each macro command in ms" android:defaultValue="1000" android:title="Macro delay(ms)" android:key="timeout" android:inputType="number" />
+        </PreferenceCategory>
+    <PreferenceCategory android:title="Irdroid Wifi settings" android:summary="These settings are applicable for irdroid WIFI module  users" android:key="irdroid_wifi">
+        <CheckBoxPreference android:key="wifi_connect" android:title="Connect to Irdroid WiFi" android:summary="This option will enable the automatic connection to Irdroid WIFI module on program start." android:defaultValue="false"/>
+    </PreferenceCategory>
+<Preference android:title="Purchase Irdroid" android:summary="Click here to purchase a Irdroid Wifi module.">
+    <intent android:action="android.intent.action.VIEW"
+            android:data="http://www.irdroid.com/irdroid-wifi-version-3-0/" />
+</Preference>
+</PreferenceScreen>
