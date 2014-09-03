@@ -1,0 +1,6 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.Default" parent="@android:style/Theme.Holo.Light"></style>
+    <style name="Theme.NoTitle" parent="@android:style/Theme.Holo.Light"></style>
+      <style name="Theme.Mydialog" parent="@android:style/Theme.Holo.Light.Dialog"></style>
+    <style name="Theme.FullScreen" parent="@android:style/Theme.Holo.Light"></style>
+</resources>

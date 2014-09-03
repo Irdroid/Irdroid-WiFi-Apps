@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:padding="0.1dip"
+       >
+
+    <LinearLayout
+        android1:layout_width="fill_parent"
+        android1:layout_height="wrap_content"
+         android:padding="10dip" >
+
+        <RelativeLayout
+            android1:layout_width="wrap_content"
+            android1:layout_height="match_parent" >
+     <ImageView
+                android:src="@drawable/ic_launcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginRight="10dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android1:layout_width="wrap_content"
+            android1:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                     android:textColor="#000000"
+                    android:textStyle="bold" />
+            
+
+                <TextView
+                    android:id="@+id/app_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                      android:textColor="#000000"
+                    android:textSize="11.5sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/about_text"
+                     android:textColor="#000000"
+                    android:textSize="12.5sp" />
+
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/app_usage"
+                     android:textColor="#000000"
+                    android:textSize="12.5sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                     android:textColor="#000000"
+                    android:text="@string/about_code_copyright"
+                    android:textSize="11.0sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/about_art_copyright"
+                    android:textColor="#000000"
+                    android:textSize="11.0sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/about_license"
+                     android:textColor="#000000"
+                    android:textSize="11.0sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:autoLink="web"
+                    android:text="@string/about_url"
+                    android:textSize="11.0sp"
+                    android1:linksClickable="true" />
+               
+        </LinearLayout>
+
+    </LinearLayout>
+    
+</ScrollView>

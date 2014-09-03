@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 
+    android:gravity="center_horizontal" >
+
+    <Button
+        android:id="@+id/btnAddmacro"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+         android:layout_marginBottom="10dp"
+         android:background="@drawable/rounded"
+     android:text="Add"
+     
+        />
+    
+
+ <View
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/btnAddmacro"
+        android:background="#8DB3E1" />
+
+    <ListView
+        android:id="@+id/List1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/a"
+        android:divider="#8DB3E1"
+        android:dividerHeight="1dp" />
+
+   
+
+</RelativeLayout>

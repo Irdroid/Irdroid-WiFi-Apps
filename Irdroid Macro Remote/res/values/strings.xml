@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Irdroid Macro Remote</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Irdroid Macros</string>
+  <string name="pref_user_name">Server address</string>
+    <string name="pref_user_name_summary">Set Irdroid WIFI / LIRC server IP address</string>
+    <string name="pref_user_profile">Server Settings</string>
+   <string name="about_text">Irdroid infrared remote macros is a LIRC (Linux infrared remote control) client that allows you to create custom infrared remote control sequences or macros. The app works with LIRC and Winlirc servers and it is specially designed to work with Irdroid WIFI modules.</string>
+   <string name="about_code_copyright">Copyright 2013 Irdroid</string>
+   <string name="about_url">Visit: http://www.irdroid.com</string>
+   <string name="about_license">The application is open source, licensed under GNU GPL v2.0 . You are free to distribute, modify and use for commercial purposes</string>
+   
+      <string name="about_art_copyright">All artwork Copyright 2013 Irdroid</string>
+     <string name="firstrun_text">This application requires a configured and working LIRC daemon (for Unix OS) or Winlirc (For Windows). The application is a LIRC client that is specially designed for Irdroid WIFI module (see the link below). If you want to use this app with Irdroid WIFI , click on the link below to purchase a WIFI module.</string>
+       <string name="purchase_url">Purchase a unit: http://www.irdroid.com</string>
+         <string name="app_usage">The application allows you to setup custom Infrared remote control sequences/macros, from the app main screen tap on Add in order to add new Macro. Enter the name of your new macro and tap on SAVE. In order to add command sequences to your new macro long click on the newly created macro and select "Edit Macro" a new screen pops up and you can use the Add button to add custom commands to your newly created macro. To execute a macro just tap on the macro name.</string>
+      <string name="todo">TODO</string>
+</resources>

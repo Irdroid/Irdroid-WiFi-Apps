@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:gravity="top"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add macros:"
+         android:textColor="#8DB3E1" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        >
+
+        <requestFocus />
+    </EditText>
+
+   <View
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/btnAdd"
+        android:background="#8DB3E1" />
+      
+
+    <Button
+        android:id="@+id/savemacro_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Save"
+       android:background="@drawable/rounded"
+      
+        />
+
+</LinearLayout>
